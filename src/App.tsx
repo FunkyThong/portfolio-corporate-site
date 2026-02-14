@@ -30,18 +30,29 @@ export default function App() {
               Flowlyは、散らばった業務情報を一元化し、現場の「探す・待つ・迷う」を減らす業務効率化SaaSです。
             </p>
 
-            <div style={{
-  padding: "10px 16px",
-  borderRadius: 10,
-  backgroundColor: "#111",
-  color: "#fff",
-  textDecoration: "none"
-}}
->
-              <a href="#contact" style={{ padding: "10px 14px", borderRadius: 10, border: "1px solid #111", textDecoration: "none" }}>
+            <div style={{ display: "flex", gap: 12, marginTop: 20 }}>
+              <a
+                href="#contact"
+                style={{
+                  padding: "10px 18px",
+                  borderRadius: 10,
+                  backgroundColor: "#111",
+                  color: "#fff",
+                  textDecoration: "none"
+                }}
+              >
                 お問い合わせ
               </a>
-              <a href="#contact" style={{ padding: "10px 14px", borderRadius: 10, border: "1px solid #ddd", textDecoration: "none" }}>
+            
+              <a
+                href="#contact"
+                style={{
+                  padding: "10px 18px",
+                  borderRadius: 10,
+                  border: "1px solid #111",
+                  textDecoration: "none"
+                }}
+              >
                 資料請求
               </a>
             </div>
