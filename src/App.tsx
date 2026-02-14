@@ -23,14 +23,21 @@ export default function App() {
       </header>
 
       <main>
-        <section style={{ padding: "56px 24px", maxWidth: 980, margin: "0 auto", display: "grid", gap: 24, gridTemplateColumns: "1.2fr 1fr" }}>
+        <section style={{ maxWidth: 1100, margin: "0 auto" }}>
           <div>
             <h1 style={{ fontSize: 40, lineHeight: 1.2, margin: 0 }}>業務を、迷わず回せる状態へ。</h1>
             <p style={{ marginTop: 16, fontSize: 16, lineHeight: 1.8 }}>
               Flowlyは、散らばった業務情報を一元化し、現場の「探す・待つ・迷う」を減らす業務効率化SaaSです。
             </p>
 
-            <div style={{ display: "flex", gap: 12, marginTop: 20 }}>
+            <div style={{
+  padding: "10px 16px",
+  borderRadius: 10,
+  backgroundColor: "#111",
+  color: "#fff",
+  textDecoration: "none"
+}}
+>
               <a href="#contact" style={{ padding: "10px 14px", borderRadius: 10, border: "1px solid #111", textDecoration: "none" }}>
                 お問い合わせ
               </a>
