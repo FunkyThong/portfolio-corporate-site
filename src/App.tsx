@@ -58,7 +58,7 @@ export default function App() {
             </div>
           </div>
 
-          <div style={{ border: "1px solid #ddd", borderRadius: 16, minHeight: 220, display: "grid", placeItems: "center" }}>
+          <div style={{ border: "1px solid #ddd", borderRadius: 24, minHeight: 260, display: "grid", placeItems: "center" }}>
             <div style={{ opacity: 0.7 }}>Visual (placeholder)</div>
           </div>
         </section>
