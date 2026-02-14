@@ -63,7 +63,17 @@ export default function App() {
           </div>
         </section>
 
-        <section style={{ padding: "0 24px 56px", maxWidth: 980, margin: "0 auto" }}>
+        <section
+            style={{
+              padding: "80px 24px",
+              maxWidth: 1100,
+              margin: "0 auto",
+              display: "grid",
+              gap: 40,
+              gridTemplateColumns: "1.1fr 1fr"
+            }}
+          >
+
           <h2 style={{ margin: "0 0 16px" }}>こんな課題、ありませんか？</h2>
           <div style={{ display: "grid", gap: 12, gridTemplateColumns: "repeat(3, 1fr)" }}>
             <div style={{ border: "1px solid #ddd", borderRadius: 12, padding: 16 }}>
