@@ -23,7 +23,17 @@ export default function App() {
       </header>
 
       <main>
-        <section style={{ maxWidth: 1100, margin: "0 auto" }}>
+        <section
+            style={{
+              padding: "80px 24px",
+              maxWidth: 1100,
+              margin: "0 auto",
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: 48,
+              alignItems: "center"
+            }}
+          >
           <div>
             <h1 style={{ fontSize: 40, lineHeight: 1.2, margin: 0 }}>業務を、迷わず回せる状態へ。</h1>
             <p style={{ marginTop: 16, fontSize: 16, lineHeight: 1.8 }}>
@@ -75,7 +85,14 @@ export default function App() {
           >
 
           <h2 style={{ margin: "0 0 16px" }}>こんな課題、ありませんか？</h2>
-          <div style={{ display: "grid", gap: 12, gridTemplateColumns: "repeat(3, 1fr)" }}>
+         <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(3, 1fr)",
+              gap: 24,
+              marginTop: 32
+            }}
+          >
             <div style={{ border: "1px solid #ddd", borderRadius: 12, padding: 16 }}>
               <div style={{ fontWeight: 700 }}>手作業が多い</div>
               <p style={{ margin: "8px 0 0", lineHeight: 1.7 }}>Excel管理が増えて、ミスや手戻りが起きやすい。</p>
